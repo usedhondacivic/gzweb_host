@@ -1,0 +1,30 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
+
+#container {
+	height: 100%;
+}
+
+#info_splash {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-image: url(./assets/ffflux.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+#info_splash p {
+	font-size: 2.5em;
+	font-family: monospace;
+	color: black;
+}
